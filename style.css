@@ -47,6 +47,7 @@ main {
 .card {
   padding: 8px 32px 8px 32px;
   background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 4px solid hsl(0deg, 0%, 30%);
 }
 
 .indented-heading {
