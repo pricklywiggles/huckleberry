@@ -3,15 +3,12 @@
   font-family: 'Lato', sans-serif;
 }
 
-/* h1,
-h2, */
+h1, h2,
 html,
 body {
   margin: 0;
   padding: 0;
 }
-
-
 
 .title {
   font-size: 2rem;
@@ -48,22 +45,15 @@ main {
 }
 
 .card {
-  /* padding-top: 1px; */
-  /* padding: 1px 100px 1px 100px; */
   padding: 8px 32px 8px 32px;
   background-color: hsl(0deg, 0%, 100%);
 }
 
 .indented-heading {
-  margin: 0px 0px 0px -48px;   /* Q: if I only set margin-left, a margin top and bottom is added, WHY? */
+  margin-left: -48px;  
   font-size: 1.25rem;
   max-width: fit-content;
-  /* margin-inline-start: -32px; */
   padding: 8px 48px 8px 48px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 4px solid hsl(45deg, 100%, 40%)
-
 }
-
-/* .card p {
-} */
